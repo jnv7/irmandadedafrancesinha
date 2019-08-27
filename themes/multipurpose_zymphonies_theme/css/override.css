@@ -1,0 +1,313 @@
+#header_wrapper{
+	background-color: #000;
+}
+#site-title a{
+	color: #FFF;
+	font-family: 'Open Sans';
+	font-size: x-large ;
+}
+.slideshow{
+	text-align:center;
+}
+.slideshow img{
+	width:80%;
+	filter: grayscale(0.70) contrast(0.7);
+	background-color: red;
+	content:url('../images/header.png') ;
+}
+
+
+
+/* menus */
+.menu-homepage i{
+	font-size: xx-large;
+	background-color: #F4F4F4;
+	color: #BEBEBE;
+	border-radius: 50%;
+	padding: 20px 22px;
+}
+.menu-homepage i.icon-x-thin{
+	padding: 20px 28px;
+}
+.menu-homepage i.icon-thin{
+	padding: 20px 25px;
+}
+.menu-homepage i.icon-fat{
+	padding: 20px 19px;
+}
+
+#main-menu ul p{
+	margin-bottom: 0px;
+	font-size: smaller;
+	width: 100%;
+	text-align: center;
+}
+#main-menu li.leaf{
+	display:inline-block;
+	width:70px;
+	height:40px;
+	margin: 5px;
+	margin-top:10px;
+}
+#main-menu span.fa-stack{	
+	line-height: 1em;
+	margin-top: 4px;
+	text-transform: none;
+}
+#main-menu li a{	
+	padding: 0px;
+	text-transform: none;
+}
+#main-menu  a:hover{	
+	color: #CF7023;
+}
+
+#main-menu .menuitem i{
+	margin-bottom: 10px;
+	font-size: large;
+
+}
+#main-menu .menuitem p{
+	height: 20px;
+	}
+#main-menu .menuitem i.small{
+	font-size: small;
+}
+#main-menu li:hover >a {
+  color: #CF7023;
+}
+@media screen and (max-width: 640px){
+	#main-menu ul p{
+		display: inline;
+		margin-right: 5px;
+		font-size: larger;
+	}
+	#main-menu span.fa-stack{	
+		height:20px;
+	}
+}
+
+/* fields */
+
+.francesinha-image-field{
+	width:170px;
+	text-align:left;
+}
+
+
+.field-name-field-estado{
+	display: inline-block;
+}
+.field-name-field-estado .temporada_estado{
+
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	clear: both;
+
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 2px 8px;
+}
+.field-name-field-estado .temporada_estado_0{
+	background: #92d4fb;
+	border: 1px solid  #4796b3;
+	color: #3084a2;
+}
+.field-name-field-estado .temporada_estado_1{
+	background: #8ee3bf;
+	border: 1px solid #508250;
+	color: #508250;
+}
+.field-name-field-estado .temporada_estado_2{
+	background: #d67c7c;
+	border: 1px solid #964444;
+	color: #964444;
+}
+
+/* pesquisa */
+
+.region-user-menu{
+  float: right;
+  margin: 9px 0;
+  position: relative;
+  width: 200px;
+
+}
+.top_right .region-user-menu{
+	
+  overflow: unset;	
+}
+
+.region-user-menu input{
+  margin: 0;
+}
+.region-user-menu .form-submit{
+  background: url(../images/search-icon.png) no-repeat center;
+  font-size: 0;
+  vertical-align: top;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:20px;
+}
+#search-block-form .form-text{
+	width:200px;	
+	background-image: none;
+}
+
+ul[data-sa-theme="autocomplete-theme"]{
+	overflow: visible;
+}
+ul[data-sa-theme="autocomplete-theme"] .ui-autocomplete-field-name {
+  display: none;
+}
+ul[data-sa-theme="autocomplete-theme"]{
+	font-size: small;
+}
+
+@media screen and (max-width: 960px) {
+	.region-search .content div{
+		width:65px;
+		font-size: smaller;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.region-search .content div{
+		width:55px;
+		margin: 2px;
+		font-size: smaller;
+	}
+	#edit-search-block-form--2{
+		padding:3px;
+		font-size: small;
+		
+	}
+	ul[data-sa-theme="autocomplete-theme"]{
+		display: none;
+		background-color: transparent;
+	}
+}
+
+
+
+
+
+
+.node-type-temporada ul.flippy{
+	margin-bottom: 90px;
+	margin-top: 0px;
+}
+.node-type-temporada .flippy .prev{
+	float: left;
+}
+.node-type-temporada .flippy .next{
+	float: right;
+}
+
+
+
+.a2a_button_twitter_tweet{
+	margin-top: 7px;
+	margin-left: 0px;
+}
+
+/* blocos */
+#block-panels-mini-disclaimer div.content .pane-content{
+	font-size: smaller;
+}
+
+/* está nas características do panel (e do layout)*/
+@media screen and (max-width: 960px){
+	#homepage .column{
+	float: none !important;
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	clear: both;
+	}
+}
+#homepage .column.centered{
+	text-align: center;
+}
+#homepage .column.one{
+padding:1px;}
+
+.eliminatorias{
+	margin:5px;
+	width:100%;
+	text-align: center;
+}
+.eliminatorias img{
+	width:70%;
+}
+
+
+
+
+
+
+#toalha_mesa{
+	background-image: url(../images/toalha.png);
+	text-align: center;
+	display: block;
+	position: relative;
+}
+#toalha_mesa span.error_code{
+	position: absolute;
+	left: 10px;
+	font-size: 230px;
+	margin: 35px;
+	line-height: 1;
+	color: rgba(0,0,0,0.2);
+	
+}
+#toalha_mesa img.logo_grande{
+	content:url('../images/logo-grande.png') ;
+	height: 250px;
+	margin: 25px;
+
+}
+#toalha_mesa img.img_403{
+	content:url('../images/403.png') ;
+	height: 250px;
+	margin: 25px;
+
+}
+#toalha_mesa img.img_404{
+	content:url('../images/404.png') ;
+	height: 250px;
+	margin: 25px;
+
+}
+
+/* outros */
+
+.citacao{
+	font-size: smaller;
+	font-style: italic;
+	background-color: RGB(250, 247, 247);
+	color: #999;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+#overlay-div-int{
+	background-color:#FFFFFF; 
+	height:100%; 
+	width:100%;
+	background-image: url('../images/spin.gif') ;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.panel-3col-33 .panel-col {
+    float: left;
+    width: 33%;
+}
