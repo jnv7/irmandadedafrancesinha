@@ -1,0 +1,143 @@
+.panels-flexible-2 .panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-2 .panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-2 .panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-2 .panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-2 .panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-2 .panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-2 .panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-2 .panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-2 .panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-2 .panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-2-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-2-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-2 {
+  width: auto;
+}
+
+.panels-flexible-column-2-2 {
+  float: left;
+  width: 32.9499%;
+}
+
+.panels-flexible-column-2-3 {
+  float: left;
+  width: 33.0266%;
+}
+
+.panels-flexible-column-2-4 {
+  float: left;
+  width: 33.0235%;
+}
+
+.panels-flexible-row-2-1-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-2-menu_esquerdo {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-2-5-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-2-menu_centro {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-2-6-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-2-menu_direito {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-2-7-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-column-2-9 {
+  float: left;
+  width: 49.5000%;
+}
+
+.panels-flexible-column-2-10 {
+  float: left;
+  width: 49.5000%;
+}
+
+.panels-flexible-row-2-8-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-2-noticias {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-2-11-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-2-cr__nicas {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-2-12-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-2-pesquisa {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-2-13-inside {
+  padding-right: 0px;
+}
+
